@@ -57,7 +57,7 @@ h1 {
 }
 
 .retangulos .calculator{
-    background-image: url('/imagem/pexels-karolina-grabowska-4386326.jpg');
+    background-image: url("../images/pexels-karolina-grabowska-4386326.jpg");
     background-size: cover;    /* Faz a imagem preencher todo o espaço */
     background-position: center; /* Centraliza a imagem */}
 
