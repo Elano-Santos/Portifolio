@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 body{
     background-color: rgb(228, 213, 213);
     min-height: 100vh;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header{
@@ -34,14 +35,24 @@ body{
     text-align: center;
     margin-top: 10px;
     height: 135px;
-    font-size:23px; 
+    font-size: 1.7rem; 
     font-style:italic;
     font-weight: bold;
-    width: 90rem;   
+    width: 80rem; 
+      
 }
 
 h1 {
     margin: 30px;
+}
+
+h2{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+h3{
+    font-size: 1rem;
 }
 
 .card{
@@ -57,13 +68,134 @@ h1 {
 }
 
 .retangulos .calculator{
-    background-image: url("../images/pexels-karolina-grabowska-4386326.jpg");
-    background-size: cover;    /* Faz a imagem preencher todo o espaço */
-    background-position: center; /* Centraliza a imagem */}
+    background-image: url(/images/pexels-roman-friptuleac-166600420-10916183.jpg);
+    background-size: cover;    
+    background-position: center;
+    color: white;
+}
+
+.retangulos .api-cep{
+    background-image: url(/images/pexels-lara-jameson-8828319.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
 
 
 .retangulos a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.retangulos a div{
+    background-image: url(/images/pexels-pavel-danilyuk-5496464.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.about p{
+    text-align: center;
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 1.3rem;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.tecnologias{
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.tech-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    max-width: 800px;
+    margin: auto;
+    gap: 2.5rem;
+}
+
+.tech{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+.tech:nth-child(1){
+    background-color: #e34f26; /* HTML */
+    color: white;
+}
+
+.tech:nth-child(2){
+    background-color: #1572b6; /* CSS */
+    color: white;
+}
+
+.tech:nth-child(3){
+    background-color: #f7df1e; /* JavaScript */
+    color: black;
+}
+
+.tech:nth-child(4){
+    background-color: #dd0031; /* Angular */
+    color: white;
+}
+
+.tech:nth-child(5){
+    background-color: #f05032; /* Git */
+    color: white;
+}
+
+.tech:nth-child(6){
+    background-color: #24292e; /* GitHub */
+    color: white;
+}
+
+.tech:nth-child(7){
+    background-color: #7952B3; /* Bootstrap */
+    color: white;
+}
+
+.tech:nth-child(8){
+    background-color: #000000; /* Vercel */
+    color: white;
+}
+
+.contato{
+    margin-top: 2rem;
+}
+
+.contato a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.1rem;
+}
+
+.contato div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: #1e3a8a;
+    width: 27rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.contato div h2{
+    color:white;
 }
