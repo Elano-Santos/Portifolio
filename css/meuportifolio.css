@@ -71,16 +71,19 @@ h3{
     background-image: url(/images/pexels-roman-friptuleac-166600420-10916183.jpg);
     background-size: cover;    
     background-position: center;
-    color: white;
 }
 
 .retangulos .api-cep{
     background-image: url(/images/pexels-lara-jameson-8828319.jpg);
     background-size: cover;
     background-position: center;
-    color: white;
 }
 
+.retangulos .angular{
+    background-image: url(/images/pexels-mayday-1365795.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 .retangulos a {
     display: flex;
@@ -191,8 +194,8 @@ h3{
     text-align: center;
     margin: auto;
     background-color: #1e3a8a;
-    width: 27rem;
-    padding: 0.5rem;
+    width: 25rem;
+    margin-bottom: 0.5rem;
     border-radius: 10px;
 }
 
